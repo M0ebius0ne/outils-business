@@ -1,5 +1,7 @@
-AUTHOR = "L'IA"
-SITENAME = 'Outils Business & Créateurs'
+AUTHOR = "L'Équipe"
+SITENAME = "Outils Business & Créateurs"
+SITESUBTITLE = "Les meilleurs logiciels SaaS B2B pour les pros"
+SITELOGO = "https://cdn-icons-png.flaticon.com/512/2953/2953423.png" # Icône business libre de droits
 SITEURL = ''
 
 PATH = 'content'
@@ -18,14 +20,11 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),)
+# Blogroll (Liens de la barre latérale)
+LINKS = (('Outils IA', 'https://M0ebius0ne.github.io/outils-ia/'),)
 
 # Social widget
-SOCIAL = (('Twitter', '#'),
-          ('GitHub', '#'),)
+SOCIAL = ()
 
 # SEO Clean URLs
 ARTICLE_URL = '{slug}/'
