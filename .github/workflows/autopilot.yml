@@ -1,11 +1,7 @@
 name: Daily AI Autopilot
 
 on:
-  push:
-    branches:
-      - master
-  schedule:
-    - cron: '15 8 * * *'
+  # Plus de génération quotidienne ni de relance à chaque push.
   workflow_dispatch:
 
 jobs:
